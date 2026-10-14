@@ -189,7 +189,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    border-top: solid 1px #DCE5EC;
 }
 
 .HeroBoxChild {
