@@ -1,0 +1,75 @@
+@media (max-width:375px) {
+    nav {
+        height: 128px;
+        padding: 0px 20px;
+        flex-wrap: wrap;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .NavBtn {
+        width: 100%;
+    }
+
+    /*main*/
+    .title div {
+        width: 90vw;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .box1,
+    .box2 {
+        flex-direction: column;
+    }
+
+    .child {
+        width: 100%;
+    }
+
+    .service {
+        height: max-content;
+    }
+
+    .contact {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .contchild {
+        padding: 0px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contactDiv{
+        width: auto;
+        gap: 20px;
+    }
+
+    .contactDiv h2 {
+        font-size: 34px;
+    }
+
+    /**footer**/
+    footer {
+        height: 943px;
+    }
+
+    .footerChild {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+
+    .LastDiv {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
